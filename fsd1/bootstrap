@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.cricbuzz.com/">cricbuzz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.Football.com/">Football</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.Basketball.com/">Basketball</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<div class="container-fluid p-5 bg-dark text-white text-center">
+    <h1>Sports Info</h1>
+    <p>Manikundan Karnati</p> 
+  </div>
+    
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Cricket</h3>
+        <p>cricket is a sport played with 11 active players and 1 substitute against another team of 11.A bat and ball used sport </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Football</h3>
+        <p>It is one the most popular sports with 11 active players and a goal keeper with 3 substitutes </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Basketball</h3>        
+        <p>It is the only popular indore played aggresive sport with 5 active and possible substitutes </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Buttons</h2>
+  
+    <button type="button" class="btn">Default</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light">Light</button>      
+  </div>
+
+  <div class="container mt-5">
+    <h2>Table</h2>            
+    <table class="table table-success table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Manikundan</td>
+          <td>Karnati</td>
+          <td>kmk@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Rohith</td>
+          <td>pittala</td>
+          <td>rpr@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container mt-5">
+    <h2>Form</h2>
+    <form action="backend.js">
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> 18+ ?
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
